@@ -59,18 +59,3 @@ Provider dipilih karena:
 
 Untuk project weather app seperti ini, Provider sudah cukup, jelas, dan efisien.
 
-## Alur Data Singkat
-
-Alur data pada aplikasi:
-
-1. `HomeView` memanggil `WeatherProvider`.
-2. Provider mengambil data dari cache dan API.
-3. Provider memperbarui state.
-4. `notifyListeners()` dipanggil.
-5. UI otomatis menampilkan data terbaru.
-
-Flow ini sederhana dan membuat proses update data lebih mudah diikuti.
-
-## Ringkasan
-
-Weather App ini dibuat dengan struktur folder yang terorganisir dan state management yang ringan. Dengan pendekatan ini, project jadi lebih mudah dibaca, dirawat, dan dikembangkan ke depannya.
